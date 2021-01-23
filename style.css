@@ -1,0 +1,121 @@
+/* Limpar formatação padrão */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em; /* 1em equivale a 16px*/
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e66e6e6;
+}
+
+/* Layout */
+
+#header-area{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo-area, #menu-area{
+    padding: 10px
+}
+
+#principal-area{
+    background:#fff;
+    width: 920px;
+    margin: auto;
+    padding: 15px;
+}
+
+.lateral-area{
+    width: 240px;
+    float: right;
+}
+
+.lateral-posts{
+    font-size: 0.8em;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px none #ccc;
+}
+
+.lateral-posts p{
+    margin-top: 10px;
+}
+
+.lateral-posts a{
+    margin-top: 10px;
+}
+
+#posts{
+    width: 660px;
+    float: left;
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.post h1{
+    font-size: 18pt;
+}
+
+.image{
+    width: 620px;
+}
+
+#baseboard{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+
+/* Formatação do Menu */
+ 
+ a{
+     color: #4e4e4e;
+     text-decoration: none;
+ }
+ #menu-area a:link, #menu-area a:visited {
+     color:#fff;
+     padding: 8px 12px;
+ }
+
+ #menu-area a:hover, a:hover{
+     color:#f7b600;
+     background: #fff;
+ }
+
+/* Formatações em geral */
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 14pt;
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+.title-post{
+    color: #f7b600;
+}
+
+.colorize{
+   color:#fff;
+}
+
+.data-post {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4fe;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
